@@ -1,4 +1,7 @@
-# MathView [![](https://jitpack.io/v/frhnfrq/MathView.svg)](https://jitpack.io/#frhnfrq/MathView)
+[![](https://jitpack.io/v/frhnfrq/MathView.svg)](https://jitpack.io/#frhnfrq/MathView)
+
+# MathView 
+
 `MathView` is a library to render Math equations in Android. It uses [jqMath](https://mathscribe.com/author/jqmath.html) to render math equations.
 
 ## Setup
