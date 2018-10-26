@@ -17,11 +17,11 @@ allprojects {
 }
 ```
 
-Add `implementation 'com.github.frhnfrq:MathView:master'` into **dependencies** section of your **module** build.gradle file. For example:
+Add `implementation 'com.github.frhnfrq:MathView:1.0'` into **dependencies** section of your **module** build.gradle file. For example:
 
 ```groovy
 dependencies {
-    implementation 'com.github.frhnfrq:MathView:master'
+    implementation 'com.github.frhnfrq:MathView:1.0'
 }
 ```
 ## Usage
