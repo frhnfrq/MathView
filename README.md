@@ -49,6 +49,9 @@ To learn how to write math equations in it, please have a look at [jqMath](https
 1. Special symbols are typed manually. Example: √ ∑ ∫ ← → + >
 2. Some parts of the MathML standard are not yet implemented in jqMath, such as elementary school mathematics (e.g. “long division”), and “Content MathML.”
 
+
+
+
 License
 =======
 
