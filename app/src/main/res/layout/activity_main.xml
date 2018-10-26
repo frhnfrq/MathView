@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.zanvent.mathview.MathView
+        android:layout_alignParentTop="true"
+        android:id="@+id/math_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_alignParentBottom="true"
+        android:id="@+id/edittext_math_equation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/background_edittext"
+        android:gravity="center_vertical"
+        android:hint="Enter math equation here"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <LinearLayout
+        android:layout_above="@+id/edittext_math_equation"
+        android:weightSum="2"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="number"
+            android:id="@+id/edittext_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/background_edittext"
+            android:gravity="center_vertical"
+            android:hint="Text size"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/edittext_text_color"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/background_edittext"
+            android:gravity="center_vertical"
+            android:hint="Text color"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
