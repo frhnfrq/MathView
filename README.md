@@ -3,12 +3,22 @@
 
 ## Setup
 
-Add `compile ____` into **dependencies** section of your **module** build.gradle file. For example:
+Add it in your **root** build.gradle at the end of repositories:
+
+```groovy
+allprojects {
+    repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+Add `implementation 'com.github.frhnfrq:MathView:master'` into **dependencies** section of your **module** build.gradle file. For example:
 
 ```groovy
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:23.0.0'
+    implementation 'com.github.frhnfrq:MathView:master'
 }
 ```
 ## Usage
