@@ -44,6 +44,9 @@ mathview.setTextSize(16);
 mathview.setTextColor("#111111");
 ```
 
+## Screenshot
+<img src="screenshots/screenshot.png" width="270px" height="480px" />
+
 ## How to
 
 To learn how to write math equations in it, please have a look at [jqMath](https://mathscribe.com/author/jqmath.html).
@@ -55,7 +58,8 @@ To learn how to write math equations in it, please have a look at [jqMath](https
 3. Supports HTML outside of the equation. Example 
   ```java
   mathview.setText("This is a <b>straight</b> line, $\ax + \by = \c$");
-  ```
+  ``` 
+<img src="screenshots/screenshot2.png" width="270px" height="480px" />
 
 ## Disadvantages
 
