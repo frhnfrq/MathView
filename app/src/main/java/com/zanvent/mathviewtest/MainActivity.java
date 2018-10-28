@@ -56,9 +56,5 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Clicked on it", Toast.LENGTH_SHORT).show();
             }
         });
-
-        System.out.println(Util.convertDpToPixels(this, 30));
-        System.out.println(Util.convertSpToPixels(this, 30));
-
     }
 }

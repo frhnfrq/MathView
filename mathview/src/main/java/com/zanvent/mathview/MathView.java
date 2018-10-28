@@ -85,7 +85,6 @@ public class MathView extends WebView {
     }
 
     public void setTextSize(int textSize) {
-
         if (textSize > 0) {
             if (pixelScaleType == Scale.SCALE_DP) {
                 this.textSize = Util.convertDpToPixels(getContext(), textSize);
@@ -96,9 +95,7 @@ public class MathView extends WebView {
         } else {
             setTextSize(textSizeDefault);
         }
-
     }
-
 
     private void updateText() {
         if (pageLoaded) {
@@ -118,16 +115,13 @@ public class MathView extends WebView {
         }
     }
 
-
     public String getText() {
         return text;
     }
 
-
     public String getTextColor() {
         return textColor;
     }
-
 
     public float getTextSize() {
         return textSize;
