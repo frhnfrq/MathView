@@ -45,8 +45,6 @@ public class MathView extends WebView {
         getSettings().setLoadWithOverviewMode(true);
         getSettings().setJavaScriptEnabled(true);
 
-        getSettings().setAppCachePath(getContext().getCacheDir().getAbsolutePath());
-        getSettings().setAppCacheEnabled(true);
         getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
 
         // disable click
